@@ -1,4 +1,4 @@
-package com.blockmar.persistance;
+package com.blockmar.persistence;
 
 import java.util.Iterator;
 import java.util.List;

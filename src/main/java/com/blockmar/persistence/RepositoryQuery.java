@@ -1,4 +1,4 @@
-package com.blockmar.persistance;
+package com.blockmar.persistence;
 
 
 public interface RepositoryQuery<T> {
