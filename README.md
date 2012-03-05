@@ -1,7 +1,12 @@
-This is a part of a simple Object Repository implementation for Java.
-This project contains the skeleton interfaces user in your Java code. see other Persistence-*
-projects for implementations of the repository. 
+Persistence Core
+================
 
+Persistence Core is the interface skeleton of a simple Object Repository implementation for Java.
+
+For an implementation example see Persistence Mongo.
+
+License
+-------
 
 Code is licensed under the Simplified BSD License
 
