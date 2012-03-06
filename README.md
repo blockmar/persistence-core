@@ -5,6 +5,23 @@ Persistence Core is the interface skeleton of a simple Object Repository impleme
 
 For an implementation example see Persistence Mongo.
 
+Building/Installing
+-------------------
+
+Persistence Core is build using SBT (https://github.com/harrah/xsbt/wiki). The super fast instruction:
+
+     $ sbt
+     > compile
+     > package
+     > publish-local
+
+The *publish-local* command installs the jar into your local Ivy repository. See the SBT manual for Maven instructions (hint: publishTo)
+
+### Why SBT? Is Persistence Core dependent on Scala?
+
+No there is no dependency between the Persistence-projects and Scala. The build tolls add Scala as a dependency in the Maven pom.xml files but it is not used.
+The choice of SBT as the build tool was made because the Persistence-projects are designed to work with the Play Framework 2.0 that also uses SBT.
+
 License
 -------
 
