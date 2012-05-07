@@ -1,6 +1,6 @@
 organization := "com.blockmar.persistence"
 
-name := "core"
+name := "persistence-core"
 
 version := "1.0-SNAPSHOT"
 
