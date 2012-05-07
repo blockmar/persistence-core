@@ -29,7 +29,7 @@ A SNAPSHOT-build of Persistence Core is available from http://hostingbyblockmar.
 
     <dependency>
         <groupId>com.blockmar.persistence</groupId>
-        <artifactId>core</artifactId>
+        <artifactId>persistence-core</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
